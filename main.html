@@ -10,7 +10,7 @@
 	<!-- the entire body must be written by student -->
      <duv>
 		 <label for="name">Name*</label>
-		 <input type="text" id="name" placeholder="name" required>
+		 <input type="text" id="name" placeholder="Name" required>
 		  <label for="email" > Email*</label>
 		 <input type="email" id="email" placeholder="email" required>
 		 <label for="gender">Gender* </label>
@@ -21,20 +21,26 @@
 		 <input type="radio" id="gender_f" name="gender" required>
 		 
 		 <label for="car">Car Brands* </label>
-		 <select required id="cars" name="cars">
-			 <option value="" disabled selected> --
+		 <select  id="cars" name="cars" required>
+			 <option value="" disabled selected> --Please choose an option--
 			 <option value="bmw">BMW</option>
 			 <option value="audi">Audi</option>
 			 <option value="mercedez">Mercedez</option>
 		 </select>
 		 <label for="age">Age*</label>
 		 <input type="number" placeholder="age" id = "age" required>
-		 <label for="dob" id="dob" required>DOB*</label>
-		 <input type="date" id="dob">
+		 <label for="dob" id="dob">DOB*</label>
+		 <input type="date" id="dob" required>
 		 <lable for="phone">Phone Number</lable>
-		 <input type="text" id="tel">
-		 <lable for="password">Password</lable>
-		 <input type="password" id="password">
+		 <input type="text" id="tel" placeholder="xxx-xxx-xxxx">
+		 <lable for="password">Password*</lable>
+		 <input type="password" id="password" placeholder="password" required>
+		 <div>
+			 <input type="checkbox" id="tos" name="tos" required>
+			 <label for="tos">I agree to the TOS</label>
+			 
+		 </div>
+		 
 		 <button type="submit"> Submit
 		 
 	 </duv>
