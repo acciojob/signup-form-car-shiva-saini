@@ -8,18 +8,22 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-     <duv>
-		 <label for="name">Name*</label>
+     <form method="post">
+		 <label for="name">Name *</label>
 		 <input type="text" id="name" placeholder="Name" required>
-		  <label for="email" > Email*</label>
+		 <label for="email" >Email *</label>
 		 <input type="email" id="email" placeholder="email" required>
-		 <label for="gender">Gender* </label>
-		 <label for="gender_m">Male</label>
-		 <input type="radio" id="gender_m" name="gender" required>
 		 
-		 <lable for="gender_f">Female</lable>
-		 <input type="radio" id="gender_f" name="gender" required>
-		 
+		 <label for="gender">Gender * </label>
+		 <div>
+			  <label for="gender_m">Male</label>
+		     <input type="radio" id="gender_m" name="gender" required>
+		 </div>
+
+		 <div>
+			 <lable for="gender_f">Female</lable>
+			 <input type="radio" id="gender_f" name="gender" required>
+		 </div>
 		 <label for="car">Car Brands* </label>
 		 <select  id="cars" name="cars" required>
 			 <option value="" disabled selected> --Please choose an option--
@@ -43,7 +47,7 @@
 		 
 		 <button type="submit"> Submit
 		 
-	 </duv>
+	 </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
